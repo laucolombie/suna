@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import IndexPage from './IndexPage.js'
+import IndexPage from './pages/IndexPage.js'
 
 ReactDOM.render(
-  <IndexPage/>,
-  document.getElementById('app-container')
+  <IndexPage/>,document.getElementById('app-container')
 );
 
